@@ -1,6 +1,9 @@
 # Load-Balancer
 A Round-Robin based Load Balancer: Distributes requests to a list of servers in a cyclic order.
 
+![loadbalancer](https://github.com/user-attachments/assets/73317f9d-59c6-4484-935b-f0a789b7d847)
+
+
 ### Installation
 
 1. Clone the repository:
