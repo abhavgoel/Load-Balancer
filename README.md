@@ -42,6 +42,6 @@ A Round-Robin based Load Balancer: Distributes requests to a list of servers in 
 
 You can access the load balancer at `http://localhost:3000`
 
-**Note:** Remember when ypu ruin servers using the `run_servers.sh` script you wont be able to kill them using `Ctrl + C`. This is because in Unix systems background process are not terminated by `Ctrl+C`.
-So you can either kill then via terminal (by looking for process by `ps -x` command) or use the `kill_servers.sh` script. But keep in mind that this script will kill all processes that starts with "node" and ends with "js". It uses regex to find node processes from the `ps -x` command adn kills them.
+**Note:** Remember when you run servers using the `run_servers.sh` script you wont be able to kill them using `Ctrl + C`. This is because in Unix systems background process are not terminated by `Ctrl+C`.
+So you can either kill then via terminal (by looking for process by `ps -x` command) or use the `kill_servers.sh` script. But keep in mind that this script will kill all processes that starts with "node" and ends with "js". It uses regex to find node processes from the `ps -x` command and kills them.
 
